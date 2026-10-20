@@ -6,7 +6,7 @@ Synchronous and asynchronous Python clients for Triport JSON-RPC, REST helpers
 and WebSocket subscriptions across nine networks. Includes typed method registries,
 structured API errors and Solana Yellowstone gRPC endpoint configuration.
 
-[Website](https://triport.io) · [Docs](https://triport.io/docs) · [X](https://x.com/triport_io) · [Telegram](https://t.me/triport_dev) · [Email](mailto:sales@triport.io)
+[Website](https://triport.io) · [Docs](https://triport.io/docs) · [X](https://x.com/triport_io) · [Telegram](https://t.me/triport_sales) · [Email](mailto:sales@triport.io)
 
 ## Install
 
