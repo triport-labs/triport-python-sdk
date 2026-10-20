@@ -1,0 +1,43 @@
+# Ruff config — Python lint + format for Triport SDK.
+# Pinned at the modern strict-but-pragmatic baseline. CI runs
+# `ruff check .` and `ruff format --check .`; both must pass.
+
+target-version = "py310"
+line-length = 100
+extend-exclude = [
+    "triport/generated",  # auto-generated; lint via the generator's own emitter, not after.
+    "build",
+    "dist",
+    ".venv",
+]
+
+[lint]
+# Curated rule sets:
+#   E,W,F  — pyflakes + pycodestyle baseline
+#   I      — isort
+#   B      — bugbear (common gotchas)
+#   UP     — pyupgrade (modernise syntax to py310+)
+#   N      — pep8-naming
+#   SIM    — flake8-simplify
+#   RUF    — ruff-specific
+#   ANN    — flake8-annotations (typing hygiene; relaxed for tests)
+#   ASYNC  — flake8-async (await + cancel correctness)
+#   S      — bandit security
+#   TID    — flake8-tidy-imports
+select = ["E", "W", "F", "I", "B", "UP", "N", "SIM", "RUF", "ANN", "ASYNC", "S", "TID"]
+ignore = [
+    # ANN101/ANN102 (self/cls annotations) were removed from ruff upstream;
+    # keeping them here only produced a "rules have been removed" warning
+    # on every run.
+    "S101",   # assert in tests is fine
+]
+
+[lint.per-file-ignores]
+"tests/**" = ["ANN", "S", "N802"]
+"examples/**" = ["ANN", "S"]
+"scripts/**" = ["ANN", "S"]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true

@@ -1,0 +1,116 @@
+[
+  {
+    "chain": "sol",
+    "name": "getSlot",
+    "fixture": {
+      "request": {
+        "params": []
+      },
+      "response": {
+        "result": 1
+      }
+    }
+  },
+  {
+    "chain": "eth",
+    "name": "eth_chainId",
+    "fixture": {
+      "request": {
+        "params": []
+      },
+      "response": {
+        "result": "0x1"
+      }
+    }
+  },
+  {
+    "chain": "polygon",
+    "name": "eth_chainId",
+    "fixture": {
+      "request": {
+        "params": []
+      },
+      "response": {
+        "result": "0x89"
+      }
+    }
+  },
+  {
+    "chain": "bsc",
+    "name": "eth_chainId",
+    "fixture": {
+      "request": {
+        "params": []
+      },
+      "response": {
+        "result": "0x38"
+      }
+    }
+  },
+  {
+    "chain": "base",
+    "name": "eth_chainId",
+    "fixture": {
+      "request": {
+        "params": []
+      },
+      "response": {
+        "result": "0x2105"
+      }
+    }
+  },
+  {
+    "chain": "tron",
+    "name": "eth_chainId",
+    "fixture": {
+      "request": {
+        "params": []
+      },
+      "response": {
+        "result": "0x2b6653dc"
+      }
+    }
+  },
+  {
+    "chain": "robinhood",
+    "name": "eth_chainId",
+    "fixture": {
+      "request": {
+        "params": []
+      },
+      "response": {
+        "result": "0x1237"
+      }
+    }
+  },
+  {
+    "chain": "stellar",
+    "name": "getHealth",
+    "fixture": {
+      "request": {
+        "params": {}
+      },
+      "response": {
+        "result": {
+          "status": "healthy"
+        }
+      }
+    }
+  },
+  {
+    "chain": "ton",
+    "name": "getMasterchainInfo",
+    "fixture": {
+      "request": {
+        "params": {}
+      },
+      "response": {
+        "result": {
+          "last": {
+            "seqno": 1
+          }
+        }
+      }
+    }
+  }
+]

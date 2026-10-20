@@ -1,0 +1,6 @@
+{
+  "name": "triport-python-sdk",
+  "description": "Python SDK for Triport: synchronous and asynchronous JSON-RPC across nine networks, REST helpers, WebSocket subscriptions and Solana gRPC endpoint configuration.",
+  "homepage": "https://triport.io/docs",
+  "topics": ["triport", "python", "sdk", "blockchain", "json-rpc", "websocket", "solana", "ethereum", "grpc"]
+}

@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.10', '3.11', '3.12', '3.13']
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install development dependencies outside the checkout
+        run: |
+          python -m venv "$RUNNER_TEMP/triport-dev"
+          "$RUNNER_TEMP/triport-dev/bin/python" -m pip install '.[dev]'
+          echo "$RUNNER_TEMP/triport-dev/bin" >> "$GITHUB_PATH"
+      - name: Lint and type check
+        run: |
+          ruff check . --no-cache
+          ruff format --check . --no-cache
+          mypy triport --cache-dir "$RUNNER_TEMP/mypy"
+      - name: Offline tests
+        run: pytest -p no:cacheprovider
+      - name: Build wheel and source distribution
+        run: python -m build --outdir "$RUNNER_TEMP/artifacts"
+      - name: Test installed wheel in a clean environment
+        run: |
+          python -m venv "$RUNNER_TEMP/triport-wheel"
+          "$RUNNER_TEMP/triport-wheel/bin/python" -m pip install "$RUNNER_TEMP"/artifacts/*.whl
+          cd "$RUNNER_TEMP"
+          "$RUNNER_TEMP/triport-wheel/bin/python" "$GITHUB_WORKSPACE/scripts/wheel_smoke.py"

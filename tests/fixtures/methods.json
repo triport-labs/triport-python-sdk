@@ -1,0 +1,1292 @@
+{
+  "sol": [
+    {
+      "name": "getAccountInfo",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getAsset",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getAssetProof",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getAssetsByGroup",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getAssetsByOwner",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getBalance",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getBlock",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getBlockCommitment",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getBlockHeight",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getBlockProduction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getBlockTime",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getBlocks",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getClusterNodes",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getEpochInfo",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getEpochSchedule",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getFeeForMessage",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getFirstAvailableBlock",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getGenesisHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getHealth",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getIdentity",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getInflationGovernor",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getInflationRate",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getInflationReward",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getLatestBlockhash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getLeaderSchedule",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getMaxRetransmitSlot",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getMaxShredInsertSlot",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getMinimumBalanceForRentExemption",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getMultipleAccounts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getPriorityFeeEstimate",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getProgramAccounts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getProgramAccountsV2",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getRecentPerformanceSamples",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getRecentPrioritizationFees",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getSignaturesForAddress",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getSlot",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getSlotLeader",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getSlotLeaders",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getStakeMinimumDelegation",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getSupply",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getTokenAccountBalance",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getTokenAccounts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getTokenAccountsByDelegate",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getTokenAccountsByOwner",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getTokenAccountsByOwnerV2",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getTokenLargestAccounts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getTokenSupply",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getTransaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getTransactionCount",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getTransactionsForAddress",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getVersion",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "getVoteAccounts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "isBlockhashValid",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "minimumLedgerSlot",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "requestAirdrop",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "searchAssets",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "sendBundle",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "sendTransaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "simulateBundle",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "simulateTransaction",
+      "paramStructure": "by-position"
+    }
+  ],
+  "eth": [
+    {
+      "name": "admin_datadir",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "admin_nodeInfo",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "admin_peers",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_getRawBlock",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_getRawHeader",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_storageRangeAt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceBlockByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceBlockByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceCall",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceTransaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_blockNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_call",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_callBundle",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_chainId",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_estimateGas",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_feeHistory",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_gasPrice",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBalance",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockReceipts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockTransactionCountByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockTransactionCountByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getCode",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getLogs",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getProof",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getStorageAt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionByBlockHashAndIndex",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionByBlockNumberAndIndex",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionCount",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionReceipt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getUncleByBlockHashAndIndex",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getUncleByBlockNumberAndIndex",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getUncleCountByBlockHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getUncleCountByBlockNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_maxPriorityFeePerGas",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_protocolVersion",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_sendBundle",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_sendRawTransaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_syncing",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "net_listening",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "net_peerCount",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "net_version",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "personal_listAccounts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "personal_listWallets",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_block",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_call",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_filter",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_replayBlockTransactions",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_transaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "txpool_content",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "txpool_inspect",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "txpool_status",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "web3_clientVersion",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "web3_sha3",
+      "paramStructure": "by-position"
+    }
+  ],
+  "polygon": [
+    {
+      "name": "bor_getAuthor",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "bor_getCurrentProposer",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "bor_getCurrentValidators",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "bor_getRootHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "bor_getSigners",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "bor_getSnapshot",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceBlockByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceCall",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_blockNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_call",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_chainId",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_estimateGas",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_feeHistory",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_gasPrice",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBalance",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockReceipts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockTransactionCountByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockTransactionCountByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getCode",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getFilterChanges",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getLogs",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getProof",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getRootHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getStorageAt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionByBlockHashAndIndex",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionByBlockNumberAndIndex",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionCount",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionReceipt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_maxPriorityFeePerGas",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_newBlockFilter",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_protocolVersion",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_sendRawTransaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_syncing",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_uninstallFilter",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "net_listening",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "net_peerCount",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "net_version",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_block",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_call",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_filter",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_replayBlockTransactions",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_transaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "txpool_content",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "txpool_inspect",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "txpool_status",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "web3_clientVersion",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "web3_sha3",
+      "paramStructure": "by-position"
+    }
+  ],
+  "bsc": [
+    {
+      "name": "debug_traceBlockByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceTransaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_blockNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_call",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_chainId",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_estimateGas",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_feeHistory",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_gasPrice",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBalance",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockReceipts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockTransactionCountByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getCode",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getLogs",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getProof",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getStorageAt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionCount",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionReceipt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_maxPriorityFeePerGas",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_syncing",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "net_listening",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "net_peerCount",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "net_version",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_block",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "txpool_content",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "txpool_inspect",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "txpool_status",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "web3_clientVersion",
+      "paramStructure": "by-position"
+    }
+  ],
+  "base": [
+    {
+      "name": "admin_peers",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "base_transactionStatus",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_getRawBlock",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_getRawReceipts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceBlockByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceBlockByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceCall",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceTransaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "engine_newPayloadV3",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "estimateUserOperationGas",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_blockNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_call",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_callBundle",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_chainId",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_clientVersion",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_estimateGas",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_estimateUserOperationGas",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_feeHistory",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_gasPrice",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBalance",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockByNumber+Receipts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockReceipts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockTransactionCountByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockTransactionCountByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getCode",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getLogs",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getProof",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getStorageAt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionByBlockHashAndIndex",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionByBlockNumberAndIndex",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionCount",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionReceipt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getUserOperationByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getUserOperationReceipt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_maxPriorityFeePerGas",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_sendBundle",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_sendPrivateRawTransaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_sendPrivateTransaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_sendRawTransaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_sendRawTransactionConditional",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_sendRawTransactionSync",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_sendUserOperation",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_simulateV1",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_supportedEntryPoints",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_syncing",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "net_version",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "optimism_outputAtBlock",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "optimism_rollupConfig",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "optimism_syncStatus",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "rollup_getInfo",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_block",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_call",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_filter",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "trace_transaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "txpool_content",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "txpool_inspect",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "txpool_status",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "web3_clientVersion",
+      "paramStructure": "by-position"
+    }
+  ],
+  "tron": [
+    {
+      "name": "eth_blockNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_call",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_chainId",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_gasPrice",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBalance",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getCode",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getLogs",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getStorageAt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_syncing",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "net_version",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "web3_clientVersion",
+      "paramStructure": "by-position"
+    }
+  ],
+  "robinhood": [
+    {
+      "name": "debug_traceBlockByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceBlockByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceCall",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "debug_traceTransaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_blockNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_call",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_chainId",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_estimateGas",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_feeHistory",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_gasPrice",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBalance",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockByNumber",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getBlockReceipts",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getCode",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getLogs",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getProof",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getStorageAt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionByHash",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionCount",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_getTransactionReceipt",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_maxPriorityFeePerGas",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_sendRawTransaction",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_sendRawTransactionConditional",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "eth_syncing",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "net_version",
+      "paramStructure": "by-position"
+    },
+    {
+      "name": "web3_clientVersion",
+      "paramStructure": "by-position"
+    }
+  ],
+  "stellar": [
+    {
+      "name": "getEvents",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getFeeStats",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getHealth",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getLatestLedger",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getLedgerEntries",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getLedgers",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getNetwork",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getTransactions",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getVersionInfo",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "simulateTransaction",
+      "paramStructure": "by-name"
+    }
+  ],
+  "ton": [
+    {
+      "name": "getAddressInformation",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getBlock",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getBlockHeader",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getConfigAll",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getConfigParam",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getMasterchainInfo",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getShards",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getTime",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getTransactions",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "getVersion",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "lookupBlock",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "runGetMethod",
+      "paramStructure": "by-name"
+    },
+    {
+      "name": "runSmcMethod",
+      "paramStructure": "by-name"
+    }
+  ]
+}
